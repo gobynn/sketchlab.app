@@ -1,7 +1,7 @@
 # Sketch Lab — project context
 
 ## Purpose
-Sketch Lab is Adam’s local-first diagram workspace. It helps Hermes explain systems, programming, Apple-platform workflows, and other visual ideas through editable boards. Boards remain in the browser’s IndexedDB unless Adam deliberately shares a generated URL.
+Sketch Lab is a parked Adam-owned local-first diagram experiment retained for renderer and product-reference work. Excalidraw is Adam’s default diagram tool. Do not select Sketch Lab for normal diagrams unless Adam explicitly asks to work in this repository or asks for Sketch Lab by name.
 
 ## Build and test
 - Install from the committed lockfile: `npm ci --ignore-scripts`.
@@ -17,7 +17,7 @@ Sketch Lab is Adam’s local-first diagram workspace. It helps Hermes explain sy
 - `test/` — Vitest regression tests.
 
 ## Agent diagrams
-When Adam asks for a Sketch Lab diagram, read `docs/hermes-diagrams.md`. Generate a concise valid `GeneratedGraph`, then open it with the local `?g=` URL. Do not use Mermaid as an intermediary, invent icon names, or include sensitive KRD/HR information.
+Only when Adam explicitly asks for Sketch Lab, read `docs/hermes-diagrams.md`. Generate a concise valid `GeneratedGraph`, then open it with the local `?g=` URL. For normal diagram requests, direct the work to Excalidraw and `~/shebang/tools/excalidraw-workflow.md`. Do not use Mermaid as an intermediary, invent icon names, or include sensitive KRD/HR information.
 
 ## Ownership and upstream
 - `origin` is `gobynn/sketchlab.app`: Adam’s fork and the only push target.

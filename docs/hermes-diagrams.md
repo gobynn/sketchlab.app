@@ -1,6 +1,8 @@
 # Hermes → Sketch Lab diagram contract
 
-Use this contract when Adam asks Hermes for a visual explanation, a system map, an architecture sketch, a flow diagram, or explicitly says “Sketch Lab.” This is the shared source for Ledger, Infrastructure, Programming, and Apple work.
+> **Status: parked.** Excalidraw is Adam’s default editable diagram format. Use this contract only when Adam explicitly asks for Sketch Lab or when working on the Sketch Lab codebase.
+
+Use this contract when Adam explicitly asks for a Sketch Lab visual explanation, system map, architecture sketch, or flow diagram. It is no longer the shared default for Ledger, Infrastructure, Programming, or Apple work.
 
 ## Default workflow
 
